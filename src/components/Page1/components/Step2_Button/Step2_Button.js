@@ -8,7 +8,7 @@ class Step2_Button extends React.Component{
     render()
     {
         return(
-            <Button>{this.props.text}<i className = "fas fa-feather"></i></Button>
+            <Button>{this.props.text}<i className = {this.props.icon}></i></Button>
         )
     }
 }
