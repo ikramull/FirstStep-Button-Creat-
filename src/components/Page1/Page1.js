@@ -1,13 +1,15 @@
 import React from "react";
-import Step3_Button from './components/Step3_Button/Step3_Button';
+import Step4 from './components/Step4/Step4';
 class Page1 extends React.Component{
+    constructor(props)
+    {
+        super(props);
+    }
     render()
     {
         return(
             <div>
-                <Step3_Button text = "Submit" icon = "fas fa-feather" />
-                <Step3_Button text = "Submit" icon = "fas fa-feather" icon_pos = "left"/>
-                <Step3_Button text = "Submit" icon = "fas fa-feather" icon_pos = "both"/>
+               <Step4/>
             </div>
         )
     }
