@@ -1,5 +1,5 @@
 import React from "react";
-import Step5 from './components/Step5/Step5';
+import Step6 from './components/Step6/Step6';
 class Page1 extends React.Component{
     constructor(props)
     {
@@ -9,7 +9,7 @@ class Page1 extends React.Component{
     {
         return(
             <div>
-               <Step5/>
+               <Step6/>
             </div>
         )
     }
